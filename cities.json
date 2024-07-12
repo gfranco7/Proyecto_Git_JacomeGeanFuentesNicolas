@@ -1,25 +1,25 @@
 {
     "cities": [
         {
-            "codigo postal": "6800",
+            "codigo_postal": "6800",
             "nombre": "Bucaramanga",
             "poblacion": "2000",
             "pais": "Colombia"
         },
         {
-            "codigo postal": "7800",
+            "codigo_postal": "7800",
             "nombre": "Medellin",
             "poblacion": "7000",
             "pais": "Colombia"
         },
         {
-            "codigo postal": "6780",
+            "codigo_postal": "6780",
             "nombre": "Santiago de Chile",
             "poblacion": "10000",
             "pais": "Chile"
         },
         {
-            "codigo postal": "8765",
+            "codigo_postal": "8765",
             "nombre": "Buenos Aires",
             "poblacion": "8000",
             "pais": "Argentina"

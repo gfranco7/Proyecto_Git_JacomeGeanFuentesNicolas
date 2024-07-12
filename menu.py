@@ -12,7 +12,7 @@ def menu_principal(datos_1):
         elif opcion == 2:
             update_city(datos_1)
         elif opcion == 3:
-            reporte_ciudades(datos_1)
+            mostrar_ciudades(datos_1)
         elif opcion == 4:
             print(" -- Saliendo del sistema... --")
             break

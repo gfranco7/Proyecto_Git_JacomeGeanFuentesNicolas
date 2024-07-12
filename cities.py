@@ -22,11 +22,6 @@ def update_city(datos_1):
     datos_1 = dict(datos_1)
     city={}
     
-    for i in (datos_1["cities"]):
-        city.append(i["codigo_postal"])
-        
-    print(city)
-    
     contador_cities = 0
     city_id = int(input("Ingrese el código postal de la ciudad que desea modificar = "))
     
