@@ -15,3 +15,4 @@ def guardar_datos(datos, archivo):
     file=open(archivo,"w")
     file.write(diccionario)
     file.close()
+
