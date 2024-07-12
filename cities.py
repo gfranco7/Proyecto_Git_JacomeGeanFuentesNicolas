@@ -1,3 +1,5 @@
+import datos
+
 def create_city(datos_1):
     datos_1 = dict(datos_1)
     city={}
@@ -50,4 +52,17 @@ def update_city(datos_1):
     if contador_cities == 0:
         print("Usuario no encontrado")         
     update_city(datos_1)
+
+# Mostrar Ciudades
+def mostrar_ciudades(archivo):
+    data = datos.cargar_datos(archivo)
+    # Comenzar a iterar
+    for clave, valor in data.items():
+        print("----------------------------------------------------")
+        print(f"{clave}:")
+        print("----------------------------------------------------")
+        for i in valor:
+            for k in i.keys():
+                print(f"{k}: {i[k]}")
+            print("----------------------------------------------------")
 
