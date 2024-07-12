@@ -23,6 +23,12 @@
             "nombre": "Buenos Aires",
             "poblacion": "8000",
             "pais": "Argentina"
+        },
+        {
+            "codigo_postal": "5020",
+            "nombre": "Buenos aires",
+            "poblacion": "50000",
+            "pais": "Argentina"
         }
     ]
 }
